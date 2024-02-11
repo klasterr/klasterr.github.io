@@ -11,10 +11,19 @@ body{
     display: flex;
     justify-content: center; /* Відцентрування по горизонталі */
     align-items: center; /* Відцентрування по вертикалі */
-    height: 100vh; /* Забезпечує, щоб body займало весь видимий екран */
-    overflow: hidden;
+    height: 100dvh; /* Забезпечує, щоб body займало весь видимий екран */
 }
 .content{
-    background-color: antiquewhite;
-    padding: 8vh 10vw;
+    display: flex;
+    justify-content: center; /* Відцентрування по горизонталі */
+    align-items: center; /* Відцентрування по вертикалі */
+    width: 27vh;
+    height: 22vh;
+    background-color: rgb(234, 221, 205);
+    padding: 4vh 12vw;
+    border-radius: 10%;
+}
+.gif{
+    width: 12vh;
+    padding-bottom: 25px;
 }
