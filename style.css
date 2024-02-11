@@ -12,6 +12,7 @@ body{
     justify-content: center; /* Відцентрування по горизонталі */
     align-items: center; /* Відцентрування по вертикалі */
     height: 100vh; /* Забезпечує, щоб body займало весь видимий екран */
+    overflow: hidden;
 }
 .content{
     background-color: antiquewhite;
