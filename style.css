@@ -1,5 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: url(https://loveandspecs.com/wp-content/uploads/2015/03/valentines-day-desktop-background-hearts.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image:url(images/2.png);
+    background-size: 40vh;
+    background-position: right;
+
+    display: flex;
+    justify-content: center; /* Відцентрування по горизонталі */
+    align-items: center; /* Відцентрування по вертикалі */
+    height: 100vh; /* Забезпечує, щоб body займало весь видимий екран */
+}
+.content{
+    background-color: antiquewhite;
+    padding: 8vh 10vw;
 }
