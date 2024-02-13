@@ -7,6 +7,7 @@ body{
     background-image:url(images/2.png);
     background-size: 40vh;
     background-position: right;
+    overflow: hidden;
 
     display: flex;
     justify-content: center; /* Відцентрування по горизонталі */
@@ -39,7 +40,6 @@ body{
   border-radius: 30px;
   box-shadow: #422800 3px 3px 0 0;
   color: #422800;
-
   display: inline-block;
   font-weight: 600;
   font-size: 18px;
@@ -50,6 +50,7 @@ body{
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
+  transition: all 0.2s ease;
 }
 
 .button-74:active {
